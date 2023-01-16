@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--    Open Graph    -->
+    <meta property="og:title" content="TP-ArgPrograma" />
+    <meta property="og:type" content="webTP" />
+    <meta property="og:url" content="aca-va-link-jeje-no-esta-subido" />
+    <meta property="og:image" content="./assets/images/ary4.jpg" />
+    <!--    bootstrap 5   -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--    iconos boostrap   -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--    animations   -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <link rel="shortcut icon" href="./assets/images/icon.ico">
+
+    <title>TP-ArgPrograma</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbar" class="border-bottom">
+    <header class="d-flex flex-wrap justify-content-center py-3 container">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+            <span class="fs-4">TP-ArgPrograma</span>
+        </a>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#intro" class="nav-link text-white" aria-current="page"><b>INTRO</b></a></li>
+            <li class="nav-item"><a href="#conocimientos" class="nav-link text-white"><b>SKILLS</b></a></li>
+            <li class="nav-item"><a href="#contacto" class="nav-link text-white"><b>CONTACTO</b></a></li>
+        </ul>
+    </header>
+    </div>
+
+<div class="content">
+    <!-- Intro -->
+    <section id="intro" class="container">
+        <!-- video -->
+        <video autoplay muted loop class="myVideo">
+            <source src="./assets/video/Rompecabezas.mp4" type="video/mp4">
+        </video>
+        <div class="row min-h-100vh d-flex align-items-center m-0">
+            <div class="col-12 col-xl-6 py-5" data-aos-duration="1000" data-aos="fade-right">
+                <h1 class="text-dark-blue">Desarrollador web</h1>
+                <h2>Front-End</h2>
+                <h2>Diseño de páginas web. UX/UI</h2>
+                <button type="button" class="btn btn-primary p-2"><a href="#contacto">CONTACTAME</a></button>
+            </div>
+            <div class="col-12 col-xl-6 d-flex justify-content-end py-5" data-aos-duration="1000" data-aos="fade-left">
+                <img src="https://josecarlosalmansa.com/img/monitor-web.png" alt="imagen de un desarrollador" id="img-intro" class="w-60">
+            </div>
+        </div>
+    </section>
+
+    <!-- Conocimientos -->
+    <section id="conocimientos">
+        <div class="row min-h-100vh m-0 p-0">
+            <div class="col-12 col-xl-6 d-flex justify-content-around m-0 p-0">
+                <img src="./assets/images/ary4.jpg" alt="imagen de un desarrollador" class="w-100">
+            </div>
+            <div class="col-12 col-xl-6 d-flex justify-content-center align-items-center text-center" data-aos-duration="1000" data-aos="zoom-in">
+                <div class="py-5">
+                    <h2 class="mb-5 title">Skills</h2>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="rounded-circle item-conocimiento">
+                                <img src="./assets/images/html.png" alt="" class="w-50 pt-3">
+                                <p>HTML</p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="rounded-circle item-conocimiento">
+                                <img src="./assets/images/css.png" alt="" class="w-50 pt-3">
+                                <p>CSS</p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="rounded-circle item-conocimiento">
+                                <img src="./assets/images/jsLogo.png" alt="" class="w-50 pt-3">
+                                <p>JS</p>
+                            </div>
+                        </div>
+                    </div>           
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <div class="row min-h-100vh m-0 p-0 content">
+            <div class="col-12 col-xl-6 d-flex justify-content-center align-items-center text-center">
+                <div data-aos-duration="1000" data-aos="zoom-in-right">
+                    <h2 class="title mb-5">CONTACTO</h2>
+                    <div id="contenidoContacto"></div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-6 m-0 p-0">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26296.2762323027!2d-58.54426581366241!3d-34.527353150658406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0c6644d53c1%3A0x9c0cd6b0d56aa783!2sMunro%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1673881358188!5m2!1ses-419!2sar" 
+                id="mapa" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+</div>    
+
+    <script src="./assets/js/main.js"></script>
+    <!-- start animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

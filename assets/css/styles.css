@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#navbar {
+    background-color: #f9a470;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.min-h-100vh {
+    min-height: 100vh;
+}
+
+#intro {
+    margin-top: -20px;
+}
+
+h1 {
+    line-height: 2.5rem;
+    font-weight: bold;
+    font-size: 4rem;
+    background-color: rgb(88, 226, 208);
+    padding: 1rem;
+}
+
+h2 {
+    line-height: 2.5rem;
+    font-weight: bold;
+}
+
+#imgIntro {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.text-dark-blue {
+    color: #11117b;
+}
+
+#conocimientos {
+    background-color: #343233;
+}
+
+#mapa {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.myVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#contacto{
+    background-color: #f8af75;
+}
+
+.item-conocimiento{
+    background-color: #f8af75;
+    width: 100px;
+    height: 100px;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header li:hover{
+    background-color: #c66b22;
+}
+
+.content{
+    padding-top:72px;
+}
+
+@media (max-width: 768px){
+    .content{
+        padding-top: 120px;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+    
+    h1{
+        font-size: 2.5rem;
+    }
+}
+
+
