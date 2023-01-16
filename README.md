@@ -2,4 +2,4 @@
 
 ## HTML - CSS - JS - BOOSTRAP
 
-Diseño y peticiones
+Diseño y peticion
